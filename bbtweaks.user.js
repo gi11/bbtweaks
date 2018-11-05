@@ -62,7 +62,7 @@ function initCourse(num, id, inits, name, enabled) {
     return f;
 }
 
-function configCss(){
+function configCss(){ //css for settings(config
     var body = '#bbconfig {overflow: scroll;}';
     var container = '#bbconfig_wrapper {display: flex; flex-direction: row; flex-wrap: wrap;}';
 
