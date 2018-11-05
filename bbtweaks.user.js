@@ -5,10 +5,12 @@
 // @description  some modifications for blackboard site
 // @author       gill
 // @match        https://blackboard.au.dk/webapps/*
+// @include      https://blackboard.au.dk/webapps/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
+// @homepage     https://github.com/gi11/bbtweaks
 // ==/UserScript==
 
 (function() {
