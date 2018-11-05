@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name         bbtweaks_0.2
+// @name         bbtweaks v0.2
 // @namespace    bbtweaks
 // @version      0.2
 // @description  some modifications for blackboard site
 // @author       gi11
-// @include      https://blackboard.au.dk/webapps/*
 // @match        https://blackboard.au.dk/webapps/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @grant        GM_getValue
