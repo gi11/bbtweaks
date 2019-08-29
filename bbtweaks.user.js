@@ -30,13 +30,13 @@ function initSettings()
     var sidemenu_conf = {'sidemenu_highlight_enabled' : {'label': 'Highlight current page in side menu', 'type': 'checkbox', 'default': true, 'section': ['Side Menu', '']}};
     var topmenu_conf = {'topmenu_extrabuttons_enabled' : {'label': 'Enable extra course buttons in top menu', 'type': 'checkbox', 'default': true, 'section': ['Top Menu', '']}};
 
-    var c1 = initCourse(1, "_118000_1", 'DAB', 'Databaser', true);
-    var c2 = initCourse(2, "_118001_1", 'SWT', 'Software Test', true);
-    var c3 = initCourse(3, "_118002_1", 'SWD', 'Software Design', true);
-    var c4 = initCourse(4, "_118005_1", 'IKN', 'Introduktion til kommunikationsnetværk', true);
-    var c5 = initCourse(5, "_117999_1", 'GUI', 'GUI Programmering', true);
-    var c6 = initCourse(6, "_118003_1", 'PRJ4', 'Semesterprojekt 4', true);
-    var c7 = initCourse(7, "_117965_1", 'PR1', 'Praktikforberedelse', true);
+    var c1 = initCourse(1, "_130983_1", 'ALA', 'Anvendt Lineær Algebra', true);
+    var c2 = initCourse(2, "_131070_1", 'ITS', 'IT-Sikkerhed', true);
+    var c3 = initCourse(3, "_118002_1", 'SWD1', 'Software Design', true);
+    var c4 = initCourse(4, "_131051_1", 'MAL', 'Machine Learning', true);
+    var c5 = initCourse(5, "_117999_1", 'GUI1', 'GUI Programmering', true);
+    var c6 = initCourse(6, "_131006_1", 'APK', 'Advancerede Programmeringskoncepter', true);
+    var c7 = initCourse(7, "_131029_1", 'WEB', 'Webudvikling', true);
     var c8 = initCourse(8, "1234565", 'I', 'Navn', false);
     var c9 = initCourse(9, "1234565", 'C', 'Navn', false);
     var c10 = initCourse(10, "1234565", 'S', 'Navn', false);
@@ -254,7 +254,7 @@ function setSelectedMenuItemColor(color)
     var menucontainer = document.getElementById("courseMenuPalette_contents");
     var menuitems = menucontainer.children;
 
-    var pagetitlenode = document.querySelectorAll("#breadcrumbs > div > ol > li.placeholder")[0]; //Maybe use actual tab/page title instead?
+    var pagetitlenode = document.querySelectorAll("#breadcrumbs > div.path > ol > li.placeholder > span")[0]; //Maybe use actual tab/page title instead?
     var pagetitle = pagetitlenode.innerHTML.trim();
 
     //Loop though menu items, search for item matching current page
